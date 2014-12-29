@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FreeHubGadgets:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FreeHubGadgets_jar</output-path>
+    <root id="archive" name="FreeHubGadgets.jar">
+      <element id="module-output" name="FreeHubGadgets" />
+    </root>
+  </artifact>
+</component>
