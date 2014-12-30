@@ -17,6 +17,7 @@ public class GadgetInteractListener implements Listener {
         if(e.getAction() == Action.RIGHT_CLICK_AIR || e.getAction() == Action.RIGHT_CLICK_BLOCK){
             for(Gadget gadget : HubGadgets.getInstance().getGadgets()){
                 if(e.getItem().equals(gadget.getIcon())){
+                    e.setCancelled(true);
                     gadget.execute(e.getPlayer());
                     return;
                 }
